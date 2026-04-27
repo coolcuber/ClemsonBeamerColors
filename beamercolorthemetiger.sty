@@ -1,0 +1,49 @@
+% Copyright 2026 by Ross George <rpgeorg@clemson.edu>
+%
+% This theme is free software: you can redistribute it and/or modify it under the terms of the
+% GNU General Public License as published by the Free Software Foundation, either version 3 of the
+% License, or (at your option) any later version.
+%
+% This theme is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+% even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+% General Public License (found at <https://www.gnu.org/licenses/>) for more details.
+
+
+
+% This is intended to be used with the Madrid theme.
+% I don't know how it would look with others.
+%
+% To use this theme, put this file in the same directory as your main source and add
+% \usecolortheme{tiger} after \usetheme{Madrid} in your main file.
+
+
+
+\mode<presentation>
+
+\definecolor{ClemsonOrange}{RGB}{245,102,0}
+\definecolor{GoalLine}{RGB}{255,255,255}
+\definecolor{Regalia}{RGB}{82,45,128}
+
+\setbeamercolor*{palette primary}{fg=white,bg=Regalia}
+\setbeamercolor*{palette secondary}{fg=white,bg=ClemsonOrange}
+\setbeamercolor*{palette tertiary}{fg=white,bg=Regalia!25!white}
+\setbeamercolor*{palette quaternary}{fg=primary,bg=secondary!20!tertiary}
+
+\setbeamercolor*{titlelike}{parent=palette primary}
+
+\setbeamercolor{item}{fg=ClemsonOrange}
+
+\setbeamercolor*{background canvas}{bg=Regalia!5!white}
+
+\setbeamercolor{block title}{fg=white,bg=ClemsonOrange}
+\setbeamercolor{block body}{bg=ClemsonOrange!20!white}
+
+\setbeamercolor{block title example}{fg=white,bg=Regalia}
+\setbeamercolor{block body example}{bg=Regalia!25!white}
+
+\setbeamercolor{author in head/foot}{bg=Regalia}
+\setbeamercolor{title in head/foot}{bg=ClemsonOrange}
+\setbeamercolor{date in head/foot}{bg=Regalia}
+
+\mode
+<all>
